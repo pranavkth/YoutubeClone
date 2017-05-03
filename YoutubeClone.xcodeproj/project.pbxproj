@@ -12,6 +12,7 @@
 		CD025AC41EB8D3A600EECC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD025AC21EB8D3A600EECC23 /* Main.storyboard */; };
 		CD025AC61EB8D3A600EECC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD025AC51EB8D3A600EECC23 /* Assets.xcassets */; };
 		CD025AC91EB8D3A600EECC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD025AC71EB8D3A600EECC23 /* LaunchScreen.storyboard */; };
+		CD025AD31EB8F01E00EECC23 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD025AD21EB8F01E00EECC23 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD025AC51EB8D3A600EECC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD025AC81EB8D3A600EECC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD025ACA1EB8D3A600EECC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD025AD21EB8F01E00EECC23 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,8 @@
 		CD025ABD1EB8D3A600EECC23 /* YoutubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				CD025AD11EB8EFDB00EECC23 /* Controllers */,
+				CD025AD01EB8EFCC00EECC23 /* Views */,
 				CD025ABE1EB8D3A600EECC23 /* AppDelegate.swift */,
 				CD025AC01EB8D3A600EECC23 /* ViewController.swift */,
 				CD025AC21EB8D3A600EECC23 /* Main.storyboard */,
@@ -62,6 +66,21 @@
 				CD025ACA1EB8D3A600EECC23 /* Info.plist */,
 			);
 			path = YoutubeClone;
+			sourceTree = "<group>";
+		};
+		CD025AD01EB8EFCC00EECC23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD025AD21EB8F01E00EECC23 /* VideoCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CD025AD11EB8EFDB00EECC23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				CD025AC11EB8D3A600EECC23 /* ViewController.swift in Sources */,
 				CD025ABF1EB8D3A600EECC23 /* AppDelegate.swift in Sources */,
+				CD025AD31EB8F01E00EECC23 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
